@@ -16,7 +16,10 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println ("Hello World");
+        String surname = "Enachi";
+        String name = "Mihai";
+        String fin = "My name is" + " " + name + " " + surname;
+        System.out.println (fin);
     }
     
 }
