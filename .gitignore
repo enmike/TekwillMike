@@ -1,1 +1,4 @@
-/JavaApplication1/src
+/JavaApplication1/build
+/JavaApplication1/nbproject
+/JavaApplication1/*.xml
+/JavaApplication1/*.mf
