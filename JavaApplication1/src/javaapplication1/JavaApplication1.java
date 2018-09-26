@@ -16,10 +16,14 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String surname = "Enachi";
-        String name = "Mihai";
-        String fin = "My name is" + " " + name + " " + surname;
-        System.out.println (fin);
+        double price = 10 ;
+        double tax = 5;
+        int quantity = 60;
+        double total;
+        String message = "I want to buy" + " " + quantity + " " + "shirt!";
+        total = price * quantity*tax;
+        String total1 = "Total cost with tax is" + " " + total;
+        System.out.println (total1);
     }
     
 }
