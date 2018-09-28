@@ -16,7 +16,7 @@ public class Minute_zile_ani {
        System.out.println("Introduceti numarul de minute: ");
        Scanner sc = new Scanner(System.in);
        
-        int minute = sc.nextInt();
+        float minute = sc.nextFloat();
        float zile;
         zile = minute/1440;
         System.out.println("Numarul de zile este de:" + zile); 
