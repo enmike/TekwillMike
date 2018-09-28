@@ -5,6 +5,8 @@
  */
 package javaapplication1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Admin
@@ -22,8 +24,15 @@ public class JavaApplication1 {
         double total;
         String message = "I want to buy" + " " + quantity + " " + "shirt!";
         total = price * quantity*tax;
-        String total1 = "Total cost with tax is" + " " + total;
-        System.out.println (total1);
+     
+        System.out.println ("Total cost with tax is" + " " + total);
+        
+       /*Scanner sc = new Scanner(System.in); 
+       System.out.println("Enater a string: ");
+       String str = sc.nextLine();
+       
+       System.out.println("String has been entered. \n");
+       System.out.println("String you entered:" + str);*/
     }
     
 }
